@@ -12,3 +12,6 @@ package-install:
 
 lint:
 	uv run ruff check src
+
+brain-even:
+	uv run brain-even
