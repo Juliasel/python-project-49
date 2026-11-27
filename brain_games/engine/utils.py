@@ -34,4 +34,5 @@ def run_game(rule:str, game_logic: callable):
             print('Correct!')
         else:
             show_wrong_user(user_answer, correct_answer)
+            return
     congrat(name)
