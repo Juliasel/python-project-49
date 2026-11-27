@@ -4,7 +4,7 @@ MIN_EVEN = 1
 MAX_EVEN = 100
 
 
-def calc_example(name):
+def calc_example():
         
     number1 = random.randint(MIN_EVEN, MAX_EVEN)
     number2 = random.randint(MIN_EVEN, MAX_EVEN)

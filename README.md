@@ -39,3 +39,5 @@ cd python-project-49
 
 
 brain-even: https://asciinema.org/a/MzHz6maBSQY8rbvC
+brain-calc: https://asciinema.org/a/L76fzGxKu9z20AOH
+brain-gcd: https://asciinema.org/a/W2Z2LhrShRQZkgGf

@@ -14,9 +14,8 @@ def get_user_answer():
     return qeustion
 
 
-def show_wrong_user(user_answer, correct_answer):
+def show_wrong_user(user_answer, correct_answer, name):
 
-    name = welcome_user()
     print(
         f'"{user_answer}" is wrong answer ;(.'
         f'Correct answer was "{correct_answer}".'
@@ -39,6 +38,6 @@ def run_game(rule: str, game_logic: callable):
         if user_answer == correct_answer:
             print('Correct!')
         else:
-            show_wrong_user(user_answer, correct_answer)
+            show_wrong_user(user_answer, correct_answer, name)
             return
     congrat(name)
