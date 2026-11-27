@@ -3,6 +3,7 @@ import random
 MIN_EVEN = 1
 MAX_EVEN = 100
 
+
 def check_parity():
 
         number = random.randint(MIN_EVEN, MAX_EVEN)
